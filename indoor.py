@@ -1,5 +1,7 @@
 #ask for input
-voice=input().str.lower()
+voice=input()
+
+lowercase_voice=str.lower(voice)
 
 #change all to lowercase
-print(voice)
+print(lowercase)
