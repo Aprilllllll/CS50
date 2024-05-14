@@ -5,4 +5,4 @@ voice=input()
 str.lower(voice)
 
 #print output
-print(voice)
+print(str.lower(voice))
