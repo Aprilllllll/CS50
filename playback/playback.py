@@ -2,7 +2,7 @@
 record=input()
 
 #slow down the record
-slowed_copy=record.str.replace('\s+ ', '...')
+slowed_copy=record.replace(' ', '...')
 
 #print slowed copy
-pirnt(record)
+print(slowed_copy)
