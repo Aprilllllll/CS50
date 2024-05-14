@@ -1,8 +1,8 @@
 #wait for input
-record=input()
+record=input()str.replace(' ', '...')
 
 #slow down the record
-slowed_copy=record.str.replace(' ', '...')
+#slowed_copy=record.str.replace(' ', '...')
 
 #print slowed copy
-pirnt(slowed_copy)
+pirnt(record)
