@@ -12,7 +12,9 @@ def dollars_to_float(d):
 
 
 def percent_to_float(p):
-    int(input("What percentage would you like to tip?))
+    percent = intput("What percentage would you like to tip? ")
+    percent = percent.replace('%','')
+    percent = 
     # TODO
 
 
