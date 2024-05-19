@@ -6,10 +6,12 @@ def main():
 
 
 def dollars_to_float(d):
+    int(input("How much was the meal? "))
     # TODO
 
 
 def percent_to_float(p):
+    int(input("What percentage would you like to tip?))
     # TODO
 
 
