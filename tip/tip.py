@@ -8,6 +8,7 @@ def dollars_to_float(d):
     dollars_input = d
     dollars_clean = dollars_input.replace('$','')
     dollars_to_float = int(dollars_clean)
+    print(dollars_to_float)
 
 #def dollars_to_float(d):
     #dollars_input = input("How much was the meal? ")
@@ -20,6 +21,7 @@ def percent_to_float(p):
     percent_string_clean = percent_string.strip('%')
     percent_int = int(percent_string_clean)
     percent_to_float = percent_int/100
+    print(percent_to_float)
     # TODO
 
 
