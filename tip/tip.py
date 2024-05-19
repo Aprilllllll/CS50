@@ -12,9 +12,9 @@ def dollars_to_float(d):
 
 
 def percent_to_float(p):
-    percent = intput("What percentage would you like to tip? ")
+    percent = input("What percentage would you like to tip? ")
     percent = percent.replace('%','')
-    percent = 
+    percent = oercent.int("{:.0%}".format(integer_num))
     # TODO
 
 

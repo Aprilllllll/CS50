@@ -1,5 +1,5 @@
-amount=input("How many?")
+percent = input("What percentage would you like to tip? ")
+percent = percent.replace('%','')
+percent = int("{:.0%}".format(percent))
 
-amount=amount.replace('$','')
-
-print(amount)
+print(percent)
