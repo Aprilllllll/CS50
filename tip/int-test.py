@@ -1,5 +1,5 @@
 amount=input("How many?")
 
-amount=amount.str.replace('$','')
+amount=amount.replace('$','')
 
 print(amount)
