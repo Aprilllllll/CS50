@@ -6,9 +6,9 @@ def main():
 
 
 def dollars_to_float(d):
-    amount=input("How many?")
+    dollars = input("How much was the meal? ")
 
-    amount=amount.replace('$','')
+    dollars = dollars.replace('$','')
 
 
 def percent_to_float(p):
