@@ -1,5 +1,5 @@
 percent_string = input("What percentage would you like to tip? ")
 percent_float = percent_string.strip('%')
-percent = int("{:.2%}".format(percent))
+percent_float =
 
-print(percent)
+print(percent_float)
