@@ -1,5 +1,5 @@
-percent=input("How many?")
+amount=input("How many?")
 
-precent=percent.strip()
+amount=prince1.replaceAll(amount)
 
-print(precent)
+print(amount)
