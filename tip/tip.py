@@ -4,11 +4,13 @@ def main():
     tip = dollars * percent
     print(f"Leave ${tip:.2f}")
 
-
 def dollars_to_float(d):
-    dollars_input = input("How much was the meal? ")
-    dollars_clean = dollars_input.replace('$','')
-    dollars_to_float = int(dollars_clean)
+    
+
+#def dollars_to_float(d):
+    #dollars_input = input("How much was the meal? ")
+    #dollars_clean = dollars_input.replace('$','')
+    #dollars_to_float = int(dollars_clean)
 
 
 def percent_to_float(p):
