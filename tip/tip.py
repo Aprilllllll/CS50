@@ -6,15 +6,16 @@ def main():
 
 
 def dollars_to_float(d):
-    dollars = input("How much was the meal? ")
-    dollars = dollars.replace('$','')
-    dollars = int(dollars)
+    dollars_input = input("How much was the meal? ")
+    dollars_clean = dollars_input.replace('$','')
+    dollars_to_float = int(dollars_clean)
 
 
 def percent_to_float(p):
-    percent = input("What percentage would you like to tip? ")
-    percent = percent.replace('%','')
-    percent = oercent.int("{:.0%}".format(integer_num))
+    percent_string = input("What percentage would you like to tip? ")
+    percent_string_clean = percent_string.strip('%')
+    percent_int = int(percent_string_clean)
+    percent_to_float = percent_int/100
     # TODO
 
 
