@@ -7,7 +7,7 @@ def main():
 def dollars_to_float(d):
     dollars_input = d
     dollars_clean = dollars_input.replace('$','')
-    dollars_to_float = (dollars_clean)
+    dollars_to_float = int(dollars_clean)
     return dollars_to_float
 
 #def dollars_to_float(d):
