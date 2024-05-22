@@ -5,5 +5,5 @@ match answer:
         print("Yes")
 
     case _:
-        print("No)
+        print("No")
 
