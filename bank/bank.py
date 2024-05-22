@@ -4,10 +4,10 @@ user_greeting=input("Greeting")
 clean_string=user_greeting.strip().lower()
 #do match
 if clean_sting=="hello":
-    print("$100")
+    print("$0")
     elif clean_string[0]=="h":
         print("$20")
 else:
-    print
+    print("$100")
 
 #pring result
