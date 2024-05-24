@@ -9,8 +9,8 @@ clean_string=user_greeting.strip().lower()
 if clean_string == "hello":
     print("$0")
 
-#elif clean_string[0] == "h":
-        #print("$20")
+elif clean_string[0] == "h":
+        print("$20")
 else:
     print("$100")
 
