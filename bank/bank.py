@@ -4,9 +4,10 @@ user_greeting=input("Greeting?")
 clean_string=[user_greeting.strip().lower()]
 
 print(clean_string)
+
 #do match
-#if clean_string == "hello":
-    #print("$0")
+if clean_string == "hello":
+    print("$0")
 
 #elif clean_string[0] == "h":
         #print("$20")
