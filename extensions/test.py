@@ -1,6 +1,8 @@
-media_type={}
+media_type={'gif','jpg','png'}
 
 user_input=input("?")
-if user_input == ['1', '2', '3']:
-    print("No")
-else print("Yes")
+
+if user_input in media_type:
+    print("Yes")
+
+else:
