@@ -1,9 +1,9 @@
 #greeting input
 user_greeting=input("Greeting?")
 #convert to clean string
-clean_string=[user_greeting.strip().lower()]
+clean_string=user_greeting.strip().lower()
 
-print(clean_string)
+#print(clean_string)
 
 #do match
 if clean_string == "hello":
@@ -11,7 +11,7 @@ if clean_string == "hello":
 
 #elif clean_string[0] == "h":
         #print("$20")
-#else:
-    #print("$100")
+else:
+    print("$100")
 
 #pring result
