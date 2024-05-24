@@ -1,5 +1,5 @@
 #clear input to all lowercase string
-user_input=input("File name:")
+user_input=input("File name: ")
 
 
 
