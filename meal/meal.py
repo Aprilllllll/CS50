@@ -19,7 +19,7 @@ def convert(time):
 main(convert(input_time))
 
 if __name__ == "__main__":
-   main(convert(input_time))
+   main(convert(__name__))
 
 
 
