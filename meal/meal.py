@@ -1,5 +1,5 @@
 def main(t):
-    t = convert(t)
+    converted_time = convert(t)
     if 7.00 <= converted_time <= 8.00:
         print("breakfast time")
     if 12.00 <= converted_time <= 13.00:
