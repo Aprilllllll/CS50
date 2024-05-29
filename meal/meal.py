@@ -16,16 +16,6 @@ def convert(time):
     converted_time=float(converted_h + (converted_m/60))
     return converted_time
 
-#def convert(time):
-#    hours, minutes = time.split(":")
-# hours = float(time[0])
-# minutes = float((time[1])/60)
-#   c_minutes = float(minutes)
-#    c_hours = float(hours)
-#    meal = float(hours + (minutes/60))
-#    return meal
-
-
 if __name__ == "__main__":
    main()
 
