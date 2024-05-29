@@ -14,8 +14,12 @@ def convert(time):
     sum_up = convert_hour + convert_minute
     return round(sum_up, 2)
 
-if __name__ == "__main__":
-    main()
+
+input_time=input("What time is it? ")
+main(input_time)
+
+#if __name__ == "__main__":
+#    main()
 
 
 
