@@ -19,4 +19,4 @@ def convert(time):
 #print(result)
 #if __name__ == "__main__":
 
-main(inputtime)
+main(convert(inputtime))
