@@ -25,10 +25,10 @@ elif:
             print("image/jpeg")
         case "png":
             print("image/png")
-        case "pdf"
+        case "pdf":
             print("application/pdf")
-        case "txt"
+        case "txt":
             print("text/plain")
-        case "zip"
+        case "zip":
             print("application/zip")
 
