@@ -17,7 +17,7 @@ def convert(time):
     return round(sum_up, 2)
 
 
-main(convert(input_time))
+main()
 
 if __name__ == "__main__":
    main()
