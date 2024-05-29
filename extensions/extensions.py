@@ -12,12 +12,10 @@ def remove_before_dot(t, s):
 extension=remove_before_dot(clean_string, ".")
 output_set={'gif', 'jpg', 'jpeg', 'png', 'pdf', 'txt', 'zip'}
 
-if extension in output_set:
-    case gif
-
-
-    print("supported")
-else:
+if extension not in output_set:
     print("application/octet-stream")
+
+else:
+    print("in progress")
 
 
