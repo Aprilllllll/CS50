@@ -15,7 +15,7 @@ output_set={'gif', 'jpg', 'jpeg', 'png', 'pdf', 'txt', 'zip'}
 if extension not in output_set:
     print("application/octet-stream")
 
-elif
+else:
     match extension:
         case "gif":
             print("image/gif")
@@ -31,4 +31,3 @@ elif
             print("text/plain")
         case "zip":
             print("application/zip")
-
