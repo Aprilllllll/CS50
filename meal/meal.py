@@ -15,9 +15,6 @@ def convert(time):
     sum_up = convert_hour + convert_minute
     return round(sum_up, 1)
 
-print(convert(input_time))
-
-
 if __name__ == "__main__":
    main()
 
