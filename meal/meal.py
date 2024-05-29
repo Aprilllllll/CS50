@@ -15,10 +15,10 @@ def convert(time):
     sum_up = convert_hour + convert_minute
     return round(sum_up, 2)
 
-main()
+#main()
 
 if __name__ == "__main__":
-   main(convert(__name__))
+   main()
 
 
 
