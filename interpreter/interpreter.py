@@ -1,3 +1,14 @@
+import operator
+
+ops = {
+    '+' : operator.add,
+    '-' : operator.sub,
+    '*' : operator.mul,
+    '/' : operator.truediv,  # use operator.div for Python 2
+    '%' : operator.mod,
+    '^' : operator.xor,
+}
+
 #ask fomula
 express_string=input("Expression: ")
 
@@ -5,14 +16,13 @@ express_string=input("Expression: ")
 fomula_set=express_string.split(" ")
 
 #calculator function
-def symbol_converter(s)
-    match s:
-        case "/":
-            return '/'
+def calculator(x, y, z)
+    return ops[y](x,z)
 
+#run function
 
+calculator(x1, y1, z1)
 
-#convert
 x1=int(fomula_set[1])
 z1=fomula_set[-1]
 y1=int(fomula_set[-2])
