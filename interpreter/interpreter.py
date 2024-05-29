@@ -22,9 +22,9 @@ fomula_set=express_string.split(" ")
 #run function
 #define value
 x1=int(fomula_set[1])
-z1=fomula_set[-1]
+z1=str(fomula_set[-1])
 y1=int(fomula_set[-2])
 
-print(y1)
+print(z1)
 
 
