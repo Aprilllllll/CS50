@@ -24,7 +24,7 @@ z1=float(fomula_set[-1])
 y1=fomula_set[1]
 
 result=calculator(x1, y1, z1)
-print(f"{result}")
+print(result)
 
 
 
