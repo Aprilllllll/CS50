@@ -13,7 +13,7 @@ def symbol_converter(s)
 
 
 #convert
-x1=fomula_set[1]
+x1=int(fomula_set[1])
 z1=fomula_set[-1]
-y1=fomula_set[-2]
+y1=int(fomula_set[-2])
 
