@@ -5,8 +5,11 @@ express_string=input("Expression: ")
 fomula_set=express_string.split(" ")
 
 #calculator function
-def calculator(x, y, z)
-    return int(x) y int(z)
+def symbol_converter(s)
+    match s:
+        case "/":
+            return '/'
+
 
 
 #convert
