@@ -15,7 +15,9 @@ output_set={'gif', 'jpg', 'jpeg', 'png', 'pdf', 'txt', 'zip'}
 if extension not in output_set:
     print("application/octet-stream")
 
-else:
-    print("in progress")
+elif:
+    match extension:
+        case "gif":
+            print("")
 
 
