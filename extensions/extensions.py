@@ -4,9 +4,10 @@ user_input=input("File name: ")
 #function that take extension name
 clean_string=user_input.strip().lower()
 
-def remove_before_dot(t, s):
-    before, sep, after = t.partition(s)
-    return after
+def remove_before_last_dot(t, s):
+    t.split('s')
+    
+    return [-1]
 
 #match extension
 extension=remove_before_dot(clean_string, ".")
