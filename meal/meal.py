@@ -1,7 +1,7 @@
-input_time=input("What time is it? ").strip()
+
 
 def main():
-    converted_time=convert(input_time)
+    converted_time=convert(input("What time is it? ").strip())
     if 7.00 <= converted_time <= 8.00:
         print("breakfast time")
     elif 12.00 <= converted_time <= 13.00:
