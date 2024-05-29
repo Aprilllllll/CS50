@@ -24,7 +24,7 @@ z1=int(fomula_set[-1])
 y1=fomula_set[1]
 
 result=calculator(x1, y1, z1)
-print(result)
+print(f"{result}")
 
 
 
