@@ -9,7 +9,7 @@ def remove_before_last_dot(t, s):
     return splited_set[-1]
 
 #match extension
-extension=remove_before_dot(clean_string, ".")
+extension=remove_before_last_dot(clean_string, ".")
 output_set={'gif', 'jpg', 'jpeg', 'png', 'pdf', 'txt', 'zip'}
 
 if extension not in output_set:
