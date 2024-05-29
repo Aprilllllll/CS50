@@ -18,6 +18,17 @@ if extension not in output_set:
 elif:
     match extension:
         case "gif":
-            print("")
-
+            print("image/gif")
+        case "jpg":
+            print("image/jpeg")
+        case "jpeg":
+            print("image/jpeg")
+        case "png":
+            print("image/png")
+        case "pdf"
+            print("application/pdf")
+        case "txt"
+            print("text/plain")
+        case "zip"
+            print("application/zip")
 
