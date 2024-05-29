@@ -19,5 +19,4 @@ def convert(time):
 
 main(convert(inputtime))
 
-print(result)
-if __name__ == "__main__":
+
