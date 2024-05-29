@@ -16,7 +16,7 @@ express_string=input("Expression: ")
 fomula_set=express_string.split(" ")
 
 #calculator function
-def calculator(x, y, z)
+def calculator(x, y, z):
     return ops[y](x,z)
 
 #run function
