@@ -13,9 +13,7 @@ def convert(time):
     convert_hour = float(hour)
     convert_minute = float(float(minute)/60)
     sum_up = convert_hour + convert_minute
-    return round(sum_up, 2)
-
-#main()
+    return round(sum_up, 1)
 
 if __name__ == "__main__":
    main()
