@@ -4,8 +4,9 @@ inputtime="7:50"
 
 def convert(time):
     hour, minute = time.split(":")
+    convert_hour = float(hour)
     convert_minute = float(float(minute)/60)
-    return hour+str(convert_minute)
+    return convert_hour+convert_minute
 #    return hour
 
 result=convert(inputtime)
