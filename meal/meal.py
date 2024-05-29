@@ -1,6 +1,8 @@
-#def main():
-#    ...
 inputtime="7:50"
+
+
+def main():
+    if converted_time >= 
 
 def convert(time):
     hour, minute = time.split(":")
@@ -8,9 +10,8 @@ def convert(time):
     convert_minute = float(float(minute)/60)
     sum_up = convert_hour + convert_minute
     return round(sum_up, 2)
-#    return hour
 
-result=convert(inputtime)
-print(result)
-#if __name__ == "__main__":
-#    main()
+#result=convert(inputtime)
+#print(result)
+if __name__ == "__main__":
+    main()
