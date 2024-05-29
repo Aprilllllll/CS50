@@ -23,7 +23,8 @@ x1=int(fomula_set[0])
 z1=int(fomula_set[-1])
 y1=fomula_set[1]
 
-print(calculator(x1, y1, z1))
+result=calculator(x1, y1, z1)
+print(result)
 
 
 
