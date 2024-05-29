@@ -6,6 +6,7 @@ fomula_set=express_string.split(" ")
 
 #calculator function
 def calculator(x, y, z)
+    return int(x) y int(z)
 
 
 #convert
