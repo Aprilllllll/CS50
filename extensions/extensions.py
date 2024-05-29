@@ -13,7 +13,7 @@ extension=remove_before_dot(clean_string, ".")
 output_set={'gif', 'jpg', 'jpeg', 'png', 'pdf', 'txt', 'zip'}
 
 if extension in output_set:
-
+    case gif
 
 
     print("supported")
