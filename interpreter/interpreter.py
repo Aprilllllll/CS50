@@ -16,15 +16,16 @@ express_string=input("Expression: ")
 fomula_set=express_string.split(" ")
 
 #calculator function
-#def calculator(x, y, z):
-#    return ops[y](x,z)
+def calculator(x, y, z):
+    return ops[y](x,z)
 
 #run function
 #define value
-#x1=int(fomula_set[1])
-#z1=str(fomula_set[-1])
-#y1=int(fomula_set[-2])
+x1=int(fomula_set[0])
+z1=int(fomula_set[-1])
+y1=fomula_set[1]
 
-print(x1)
+print(calculator(x1, y1, z1))
+
 
 
