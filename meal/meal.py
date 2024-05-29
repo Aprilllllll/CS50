@@ -2,7 +2,7 @@ inputtime="7:50"
 
 
 def main():
-    if converted_time >= 
+    if converted_time >= 7.00 | <= 8.00
 
 def convert(time):
     hour, minute = time.split(":")
