@@ -17,8 +17,8 @@ def convert(time):
 input_time=input("What time is it? ")
 main(convert(input_time))
 
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
 
 
 
