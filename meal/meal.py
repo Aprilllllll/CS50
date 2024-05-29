@@ -1,6 +1,7 @@
 input_time=input("What time is it? ")
 
-def main(converted_time):
+def main():
+    converted_time = float(convert(x))
     if 7.00 <= converted_time <= 8.00:
         print("breakfast time")
     if 12.00 <= converted_time <= 13.00:
