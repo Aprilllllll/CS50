@@ -1,12 +1,12 @@
 input_time=input("What time is it? ")
 
-#def main():
-#    if 7.00 <= convert(input_time) <= 8.00:
-#        print("breakfast time")
-#    if 12.00 <= convert(input_time) <= 13.00:
-#        print("lunch time")
-#    if 18.00 <= convert(input_time) <= 19.00:
-#        print("dinner time")
+def main():
+    if 7.00 <= convert(input_time) <= 8.00:
+        print("breakfast time")
+    if 12.00 <= convert(input_time) <= 13.00:
+        print("lunch time")
+    if 18.00 <= convert(input_time) <= 19.00:
+        print("dinner time")
 
 def convert(time):
     hour, minute = time.split(":")
@@ -18,8 +18,8 @@ def convert(time):
 print(convert(input_time))
 
 
-#if __name__ == "__main__":
-#   main()
+if __name__ == "__main__":
+   main()
 
 
 
