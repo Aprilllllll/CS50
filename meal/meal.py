@@ -13,7 +13,7 @@ def convert(time):
     hour, minute = time.split(":")
     convert_hour = float(hour)
     convert_minute = float(minute)/60
-    return float(convert_hour + convert_minute)
+    return convert_hour + convert_minute
 
 if __name__ == "__main__":
    main()
