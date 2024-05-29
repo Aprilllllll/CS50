@@ -1,11 +1,16 @@
 #def main():
 #    ...
-
+inputtime="7:50"
 
 def convert(time):
     hour, minute = time.split(":")
     convert_minute = float(int(minute)/60)
-    return 
+    return convert_minute
+
+
+result=convert(inputtime)
+
+print(result)
 
 
 
