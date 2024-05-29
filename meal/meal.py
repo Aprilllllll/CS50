@@ -1,5 +1,5 @@
-def main(t):
-    converted_time = convert(t)
+def main(converted_time):
+    converted_time = convert()
     if 7.00 <= converted_time <= 8.00:
         print("breakfast time")
     if 12.00 <= converted_time <= 13.00:
@@ -13,9 +13,6 @@ def convert(time):
     convert_minute = float(float(minute)/60)
     sum_up = convert_hour + convert_minute
     return round(sum_up, 2)
-
-inputtime=input("What time is it? ")
-main(convert(inputtime))
 
 if __name__ == "__main__":
     main()
