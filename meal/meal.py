@@ -6,7 +6,8 @@ def convert(time):
     hour, minute = time.split(":")
     convert_hour = float(hour)
     convert_minute = float(float(minute)/60)
-    return convert_hour+convert_minute
+    sum_up = convert_hour + convert_minute
+    return round(sum_up, 2)
 #    return hour
 
 result=convert(inputtime)
