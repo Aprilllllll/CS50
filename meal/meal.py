@@ -1,4 +1,4 @@
-#inputtime=input("What time is it? ")
+inputtime=input("What time is it? ")
 
 def main(converted_time):
     if 7.00 <= converted_time <= 8.00:
@@ -18,6 +18,7 @@ def convert(time):
 
 if __name__ == "__main__":
     main()
-#main(convert(inputtime))
+
+
 
 
