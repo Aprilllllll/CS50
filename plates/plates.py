@@ -13,7 +13,8 @@ def is_valid(s):
             result_count += 1
         if 2 <= len(s) <= 5:
             result_count += 1
-        if 
+        if len(s) > 2:
+            if s[1:]
 
 
 
