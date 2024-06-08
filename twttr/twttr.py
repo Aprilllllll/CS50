@@ -1,4 +1,4 @@
-str_input = str(input(""))
+str_input = str(input("Input: "))
 
 def rm_vowels(str_input):
     remove_vowels = "aeiouAEIOU"
@@ -8,5 +8,5 @@ def rm_vowels(str_input):
             return_word += a
     return return_word
 
-print(rm_vowels(str_input))
+print("Output: " + rm_vowels(str_input))
 
