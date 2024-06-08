@@ -17,7 +17,7 @@ def is_valid(s):
             if s[1:-1].isalpha：
                 result_count += 1
         else:
-            result
+            result_count += 1
 
 
 
