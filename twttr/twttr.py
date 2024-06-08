@@ -1,11 +1,12 @@
 str_input = str(input(""))
 remove_vowels = "aeiouAEIOU"
-return_word
-def rm_vowels():
+
+def rm_vowels(str_input):
     for a in str_input:
         if a not in remove_vowels:
             return_word += a
         return return_word
 
-rm_vowels()
+rm_vowels(str_input)
+
 print(return_word)
