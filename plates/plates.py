@@ -14,7 +14,7 @@ def is_valid(s):
         if 2 <= len(s) <= 5:
             result_count += 1
         if len(s) > 2:
-            if s[1:-2]：
+            if s[1:-2].isalpha：
                 result_count += 1
 
 
