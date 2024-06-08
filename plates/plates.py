@@ -8,8 +8,10 @@ def main():
 
 def is_valid(s):
     valid_count = 0
+    result_count =
     while valid_count = 0:
-        if s[0:1] 
+        if s[0:1].isalpha():
+
 
 
 main()
