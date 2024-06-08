@@ -11,7 +11,8 @@ def is_valid(s):
     while result_count < 5:
         if s[0:1].isalpha():
             result_count += 1
-        if 
+        if 2 <= len(s) <= 5:
+            
 
 
 
