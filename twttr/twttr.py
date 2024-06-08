@@ -3,7 +3,7 @@ remove_vowels = "aeiouAEIOU"
 return_word
 def rm_vowels():
     for a in str_input:
-        if a in remove_vowels:
+        if a not in remove_vowels:
             return_word += a
         else:
             print(a, end="")
