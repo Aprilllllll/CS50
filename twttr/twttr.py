@@ -5,7 +5,7 @@ def rm_vowels():
     for a in str_input:
         if a not in remove_vowels:
             return_word += a
-        else:
-            print(a, end="")
+        return return_word
 
 rm_vowels()
+print(return_word)
