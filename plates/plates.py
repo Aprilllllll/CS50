@@ -7,7 +7,9 @@ def main():
 
 
 def is_valid(s):
-    ...
+    valid_count = 0
+    while valid_count = 0:
+        if
 
 
 main()
