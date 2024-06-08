@@ -8,7 +8,6 @@ def coke_machine():
             print(f"Amount Due: {50 - total_paid}")
       else:
         print(f"Amount Due: {50 - total_paid}")
-
     if total_paid == 50:
        print(f"Change Owed: 0")
     if total_paid > 50:
