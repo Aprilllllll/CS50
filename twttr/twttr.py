@@ -1,8 +1,9 @@
-str_input = input("")
+str_input = str(input(""))
+remove_vowels = "aeiouAEIOU"
 
 def rm_vowels():
-    for a in str(str_input):
-        if a in ['a''e''i''o''u''A''E''I''O''U']:
+    for a in str_input:
+        if a in remove_vowels:
             print('_', end="")
         else:
             print(a, end="")
