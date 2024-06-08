@@ -9,6 +9,5 @@ def rm_vowels(str_input):
             return_word += a
         return return_word
 
-rm_vowels(str_input)
+print(rm_vowels(str_input))
 
-print(return_word)
