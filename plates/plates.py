@@ -18,7 +18,7 @@ def is_valid(s):
                 result_count += 1
         else:
             result_count += 1
-        
+        if char in s not in []
 
 
 
