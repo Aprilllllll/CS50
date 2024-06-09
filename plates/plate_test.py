@@ -30,4 +30,6 @@ def punctuation_check(check_context):
     for char in check_context:
         if char in string.punctuation:
             return True
-
+        
+input_plate = input("Plate: ")
+is_valid(input_plate)
