@@ -7,6 +7,7 @@ def main():
 
 
 def is_valid(s):
+    result_count = 0
     while result_count < 5:
         if s[0:1].isalpha():
             result_count += 1
