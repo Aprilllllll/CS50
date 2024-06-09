@@ -19,7 +19,7 @@ def is_valid(s):
                 result_count += 1
         if punctuation_check(s):
             result_count +=1
-    if result_count == 5:
+    if result_count == 4:
         #print(result_count)
         return True
 
