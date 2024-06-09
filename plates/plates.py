@@ -7,7 +7,6 @@ def main():
     else:
         print("Invalid")
 
-
 def is_valid(s):
     result_count = 0
     while result_count < 5:
@@ -20,7 +19,12 @@ def is_valid(s):
                 result_count += 1
         else:
             result_count += 1
-        if char in s not in string.puncuation
+        if char in s not in string.puncuation:
+            result_count +=1
+    if result_count = 5:
+        return True
+
+
 
 
 
