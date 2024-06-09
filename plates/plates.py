@@ -22,7 +22,8 @@ def is_valid(s):
         if punctuation_check(s):
             result_count +=1
     if result_count == 5:
-        print(result_count)
+        return True
+    print(result_count)
 
 def punctuation_check(check_context):
     for char in check_context:
