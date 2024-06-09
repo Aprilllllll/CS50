@@ -19,11 +19,15 @@ def is_valid(s):
                 result_count += 1
         else:
             result_count += 1
-        if for char in s:
-            char not in string.puncuation:
+        if punctuation_check(s):
             result_count +=1
     if result_count == 5:
         return True
+
+def punctuation_check(check_context):
+    for char in check_context:
+        if char in string.punctuation:
+            return True
 
 
 
