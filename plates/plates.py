@@ -19,7 +19,8 @@ def is_valid(s):
                 result_count += 1
         else:
             result_count += 1
-        if char in s not in string.puncuation:
+        if for char in s:
+            char not in string.puncuation:
             result_count +=1
     if result_count == 5:
         return True
