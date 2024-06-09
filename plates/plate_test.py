@@ -16,7 +16,7 @@ def is_valid(s):
             result_count += 1
         #if len(s) > 2:
         if s[1:-1].isalpha():
-                result_count += 1
+            result_count += 1
         if punctuation_check(s):
             result_count +=1
     if result_count == 4:
