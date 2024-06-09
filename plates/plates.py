@@ -1,3 +1,5 @@
+import string
+
 def main():
     plate = input("Plate: ")
     if is_valid(plate):
@@ -18,7 +20,7 @@ def is_valid(s):
                 result_count += 1
         else:
             result_count += 1
-        if char in s not in []
+        if char in s not in string.puncuation
 
 
 
