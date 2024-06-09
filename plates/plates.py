@@ -15,13 +15,13 @@ def is_valid(s):
         if 2 <= len(s) <= 5:
             result_count += 1
         if len(s) > 2:
-            if s[1:-1].isalpha：
+            if s[1:-1].isalpha():
                 result_count += 1
         else:
             result_count += 1
         if char in s not in string.puncuation:
             result_count +=1
-    if result_count = 5:
+    if result_count == 5:
         return True
 
 
