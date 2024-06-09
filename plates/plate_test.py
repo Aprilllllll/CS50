@@ -23,7 +23,7 @@ def is_valid(s):
         if punctuation_check(s):
             result_count +=1
             print("no punctuation")
-        print(result_count + "All Passed")
+        print(str(result_count))
 
 def punctuation_check(check_context):
     for char in check_context:
